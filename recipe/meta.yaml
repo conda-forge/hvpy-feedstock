@@ -1,5 +1,5 @@
 {% set name = "hvpy" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hvpy-{{ version }}.tar.gz
-  sha256: 1b2a69dec80dbec016b3b94eb5f8caa006042d1a41bf5dec4f5c8b4f9dd70a64
+  sha256: e645fe489aad94b557d41d2ab93a433f105debd3b8c6e2fe87bd2b70df0a9e2e
 
 build:
   noarch: python
@@ -20,7 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - pydantic
+    - pydantic-settings >=2.0.0
+    - pydantic >=2.0.0
     - requests
 
 test:

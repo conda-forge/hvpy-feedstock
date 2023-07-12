@@ -1,11 +1,11 @@
-About hvpy
-==========
+About hvpy-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hvpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://hvpy.readthedocs.io/en/latest/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hvpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Helioviewer Python API Wrapper
 
